@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html><head>
+        <title>Input types</title>
+    
+    <body>
+
+
+                        <form>
+                            <label for="comment">Comment <span>*</span></label>
+                            <input id="comment" type="text" required="">
+                            <br>
+                            <label for="name">Name <span>*</span></label>
+                            <input id="name" type="text" required="">
+                            <br>
+                            <label for="email">Email <span>*</span></label>
+                            <input id="email" type="email" required="">
+                            <br>
+                            <label for="website">Website</label>
+                            <input id="website" type="url">
+                            <!-- Radio buttons -->
+                            <p>Gender</p>
+                            <input type="radio">Female<br>
+                            <input type="radio" >Male<br>
+                            <input type="radio" >Other<br>
+                            <!-- To select one of all the options give same name to all inputs -->
+                            <p>Gender</p>
+                            <input type="radio" name="gender" value="female">Female<br>
+                            <input type="radio" name="gender" value="male">Male<br>
+                            <input type="radio" name="gender" value="other" checked>Other<br>
+                            
+
+                            <!-- Checkboxes -->
+                            <p>Courses</p>
+                            <input type="checkbox" name="course">C++<br>
+                            <input type="checkbox" name="course" checked>Java<br>
+                            <input type="checkbox" name="course">Python<br>
+
+                            <!-- Dropdown list -->
+                            <p>Month</p>
+                            <select name="month_selected" <!-- multiple -for multiple selections-->>
+                                <option>Jan</option>
+                                <option selected>Feb</option>
+                                <option>March</option>
+                            </select>
+
+<!-- Multiple line input -->
+<p>Experience </p>
+<textarea name="text" rows="10" cols="30">
+    
+</textarea>
+<!-- Buttons -->
+<input type="button" value="Button 1">
+<!-- <button type="can be button,reset,submit"></button> -->
+
+
+                            <input type="submit">
+
+<br>
+                            <label for="commentt">Comment <span>*</span></label>
+                            <textarea name="commentt" rows="10" cols="30"></textarea>
+                            <br/>
+                            <label for="namee">Name <span>*</span></label>
+                            <input id="namee" type="text" required />
+                            <br/>
+                            <label for="emaill">Email <span>*</span></label>
+                            <input id="emaill" type="email" required />
+                            <br/>
+                            <label for="websitee">Website</label>
+                            <input id="websitee" type="text" />
+                            <br>
+                            <input type="submit" value="Post Comment">
+                        </form>
+
+                    </div>
+                </section>
+
+            </main>
+
+        </div>
+
+    
+</body></html>
