@@ -1,0 +1,15 @@
+p{
+                color: darkmagenta;
+                font-size: 15px;
+                font-family: serif;
+}
+/*h4{
+text-transform: uppercase;
+}*/
+/*to apply to one class*/
+.uc{
+text-transform: uppercase;
+}
+.cursive{
+    font-family: cursive;
+}
