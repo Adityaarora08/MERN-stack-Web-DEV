@@ -16,4 +16,44 @@ text-transform: uppercase;
 a:hover{
     color: indianred;
     /* we can define color as name,rgb,rgba,hsl,hsla,hexadecimal */
+    /*border-width: 2px 4px;*/
+    /*2px for top and bottom and 4px for left and right*/
+    /*border-width: 2px 3px 4px;*/
+    /*2px for top 3px for right and left 4px for bottom*/
+    border-width: 2px 3px 4px 5px;
+    border-style: dotted;
+    border-color: gold;
+    /*border:  4px solid red*/
+    /*ese bhi karr sakte hain in short*/
+    border-radius: 4px;
+    /*for rounded border*/
+    /*can also declare single borders*/
+    /*border-left: 2px solid skyblue;*/
 }
+/*#borderr{
+    border-top:5px dotted #ff6060;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-right:5px dotted #ff6060;
+    border-bottom:5px dotted #ff6060;;
+}*/
+
+
+
+/*#site-title a{
+    text-decoration:none;
+    line-height:1.25;
+}
+#blog-header{
+    text-size:3.2rem;
+}
+#blog-content{
+    text-size:1.1rem;
+    word-spacing:1px;
+    line-height:1.4;
+}
+.sources:hover{
+    text-decoration:none;
+    color:#000000;
+}
+*/
