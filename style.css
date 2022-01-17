@@ -13,3 +13,6 @@ text-transform: uppercase;
 .cursive{
     font-family: cursive;
 }
+a:hover{
+    color: indianred;
+}
