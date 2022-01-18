@@ -57,3 +57,31 @@ a:hover{
     color:#000000;
 }
 */
+/*
+div{
+    background-image: url("");
+}*/
+
+
+/*margin*/
+/*margin:4px
+margin:4px 3px;
+margin:4px 3px 2px 1px;*/
+/*margin:auto; to place at center*/
+/*margin-bottom: ese bhi you can do*/
+
+/*in margin you can use -ve values but 
+in padding no -ve values are allowed*/
+
+/*padding
+padding: 4px;
+*/
+
+/*positions*/
+/*position: static,absolute,relative,fixed,sticky;*/
+
+/*box-sizing: border-box  to select if border will take more space or not*/
+
+
+
+/*overflow: auto,scroll,visible,hidden*/
