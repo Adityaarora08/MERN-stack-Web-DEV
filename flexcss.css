@@ -1,0 +1,31 @@
+#container{
+	height: 500px;
+	width: 500px;
+	background-color: cyan;
+
+	display: flex;
+	/*justify-content: space-around,flex-start,flex-end,center,space-between; to position content of container*/
+	/*align-items: center,stretch,baseline,flex-start-flex-end -this works in axis opposite to justify*/
+	/*flex-direction: column ,row, row-reverse etc; */
+     /*flex-wrap: wrap,no=wrap,wrap-reverse; to make the elements not shrink and to in other rows/columns*/
+}
+#container div{
+	height: 100px ;
+	width: 100px;
+	/*margin: 2px;*/
+}
+#div1{
+	background-color: gold;
+	/*flex-grow: 1; proportion the element can grow in the container*/
+	/*flex-shrink: 4 to make the element shrink when space is needed*/
+	/*order: 1; will make other divs with default order 0 come before this, can have -ve values as well*/
+}
+#div2{
+	background-color: indianred;
+}
+#div3{
+	background-color: darkgray;
+}
+#div4{
+	background-color: black;
+}
