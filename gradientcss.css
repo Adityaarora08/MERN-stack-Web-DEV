@@ -1,0 +1,11 @@
+#container{
+	height: 400px;
+	width: 400px;
+	margin: 40px;
+	border:  2px solid black;
+	background:  linear-gradient(blue,cyan,purple 100%);
+	background-image: linear-gradient/*:to right,to top,to top right,0deg*/: blue,cyan,purple 30%; /*to make this color start from 30 percent, 100percent is start of last color,can also define in pixels*/
+	/*can aslo use this for gradient background: repeating-linear-gradient: red,blue ;*/
+	/*background: radial-gradient: red,blue;*/
+
+}
