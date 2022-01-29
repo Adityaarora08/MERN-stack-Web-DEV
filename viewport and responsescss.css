@@ -1,0 +1,15 @@
+div{
+	width: 60%;
+}
+/*media queries*/
+@media screen and (max-width: 900px)
+{
+	div{
+		width: 90%;
+	}
+}/*should be written before the 100 percent one because obv 600 is not gonna come before 900 */
+@media screen and (max-width: 600px){
+	div{
+		width: 100%;
+	}
+}
