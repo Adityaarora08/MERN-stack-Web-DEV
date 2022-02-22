@@ -1,0 +1,13 @@
+#btn{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top:60px;
+    margin-left:45%;
+    border:0;
+/*     position:center; */
+}
+#heading{
+    margin-top:60px;
+    margin-left:43%;
+}
