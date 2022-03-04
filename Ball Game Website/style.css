@@ -1,0 +1,10 @@
+body{
+	background-color: rgb(100, 100, 100);
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(253, 253, 253);
+	border: 2px solid black;
+}
