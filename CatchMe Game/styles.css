@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 255, 221);
+}
+.box{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(92, 68, 148);
+    color: white;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+p{
+    top: 40%;
+    margin: auto;
+    position: relative;
+}
