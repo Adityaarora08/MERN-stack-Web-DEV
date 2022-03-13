@@ -1,0 +1,17 @@
+#perc{
+  font-size: 30px;
+  position: fixed;
+  text-align: center;
+  background-color: green;
+  top:0%;
+}
+#content{
+  text-align: center;
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+
