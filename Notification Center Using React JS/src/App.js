@@ -1,11 +1,12 @@
 import './App.css';
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <div class="heading">
-        <img src="https://www.dicot.se/media/202666/dicot_logo_600.png?width=1200&height=630" class="logo" alt='logo'/>
-        <h1 id="nothead">Notifications</h1>
+        <img src="https://dicot.tech/Assets/images/Logo.svg" class="logo" alt='logo'/>
+        <p id="nothead">Notifications</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ic_settings_48px.svg/2048px-Ic_settings_48px.svg.png" class="setting" alt='setting'/>
+      <span id="line"></span>
       </div>
       <div id="appbox">
         <div class="notification1">
