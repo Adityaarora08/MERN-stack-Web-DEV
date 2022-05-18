@@ -1,89 +1,110 @@
+.App{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top: 5vh;
+}
 .logo{
 position: absolute;
-width: 113px;
-height: 57px;
-left: 0px;
-top: -6px;
+width: 16.143vw;
+height: 13.571vh;
+left: 0vw;
+/* top: -1.429vh; */
+top: auto;
 }
 #nothead{
 position: absolute;
-width: 209px;
-height: 42px;
-left: 260px;
-top: -16px;
+/* justify-content: center; */
+width: 29.857vw;
+height: auto;
+left: 36.143vw;
+top: auto;
+bottom: -16vh;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
-line-height: 42px;
+font-size: 5.571vw;
+line-height: 5vh;
 }
 .setting{
 position: absolute;
-width: 38px;
-height: 36px;
-left: 628px;
-top: 6px;
+width: 5.429vw;
+height: 5.571vw;
+right: -97vw;
+/* left: 89.714vw; */
+/* top: 1.429vh; */
+top: auto;
+bottom: -11vh;
 }
 #appbox{
 position: absolute;
-width: 630px;
-height: 312px;
-left: 19px;
-top: 58px;
+width: 90vw;
+height: 74.286vh;
+left: 2.714vw;
+top: 13.810vh;
 
 background: #1D3557;
 border-radius: 25px;
 }
 .notification1{
 position: absolute;
-width: 580px;
-height: 38px;
-left: 22px;
-top: 26px;
+width: 82.857vw;
+height: 9.048vh;
+left: 3.143vw;
+top: 6.190vh;
 
 background: #A8DADC;
 border-radius: 22px;
 }
 .notification2{
 position: absolute;
-width: 580px;
-height: 38px;
-left: 22px;
-top: 88px;
+width: 82.857vw;
+height: 9.048vh;
+left: 3.143vw;
+top: 20.952vh;
 
 background: #A8DADC;
 border-radius: 22px;
 }
 .nottext{
 position: absolute;
-width: 196px;
-height: 19px;
-left: 14px;
+width: 28vw;
+height: 4.524vh;
+left: 2vw;
 /* top: 96px; */
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+font-size: 2.286vw;
+line-height: 4.524vh;
 }
 .nottime{
 position: absolute;
-width: 22px;
-height: 19px;
-left: 521px;
+width: 3.143vw;
+height: 4.524vh;
+left: 74.429vw;
 /* top: 96px; */
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+font-size: 2.286vw;
+line-height: 4.524vh;
 }
 .dots{
 position: absolute;
-width: 20px;
-height: 20px;
-left: 552px;
-top: 10px;
+width: 2.857vw;
+height: 4.762vh;
+left: 78.857vw;
+top: 2.381vh;
+}
+#line{
+    position: absolute;
+width: 95.143vw;
+height: 0vh;
+left: 0vw;
+top: 12.143vh;
+
+border: 1px solid #000000;
 }
